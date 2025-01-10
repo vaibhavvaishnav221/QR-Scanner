@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  font-size: 15px;
+  font-family: "Outfit", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.wrapper {
+  background-color: white;
+  padding: 10px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.scanner {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.scanner img {
+  display: block;
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+}
+
+.content p {
+  color: hsl(216, 15%, 48%);
+  padding-inline: 40px;
+  
+}
+
+.content h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 26px;
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 25px;
+}
